@@ -1,0 +1,144 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: black;
+
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    background-color: transparent;
+    color: white;
+    border-radius: 0px;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    text-align: center;
+    color: #000;
+    transition: 0.3s;
+}
+.img{
+    width: 100%;
+}
+.mymovie{
+    overflow: hidden;
+}
+.mymovie:hover .layer{
+    top: 0;
+    transition: all 1s;
+}
+.img-fluid{
+     width: 50%;
+    height: 50%;
+}
+.my-logo img{
+    height: 50px;
+    
+}
+.myliststyle{
+    list-style: none;
+    text-align: left;
+
+}
+.mytextstyle{
+    text-align: left;
+}
+.reciepestyle li{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    text-align: left;
+}
+
+
+
+.side-navbar {
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(-75%);
+    transition: transform 0.5s linear;
+}
+.nav-view {
+    transform: translateX(0%);
+}
+.side-navbar .nav-content ul li{
+    margin:1.5em auto;
+    display: none
+}
+.side-navbar .nav-content ul li a {
+    color: #fff;
+}
+.side-navbar .nav-content .social-items .social-icons a {
+    padding: 0 0.5em;
+    cursor: pointer;
+}
+.nav-content ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-content ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.fa-city{
+    color: #e65a50ab;
+    cursor: pointer;
+}
+
+.shadow h2{
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+.fa-bowl-food{
+    color: #9ee650ab;
+}
+
+
+
+
+
+.loading{
+    z-index: 999;
+    inset: 0;
+    background-color: #0D0D0D;
+    color: white;
+    height: 100vh;
+}
+.loading i{
+    font-size: 3em;
+}
+
+.Source{
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.youtube{
+    background-color: #F70000;
+
+}
+.tagstyle{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
